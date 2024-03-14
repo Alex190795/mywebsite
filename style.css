@@ -1,0 +1,42 @@
+body {
+    color: black;
+    font-family: Arial, sans-serif;
+    margin: 30;
+    padding: 30;
+    background-color: rgb(200, 205, 200);
+}
+.top-navigation {
+    background-color: rgb(200, 205, 200);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-navigation a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+.card {
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+}
+.project-card {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+img{
+    height: 250px;
+    width: 250px;
+    border: solid 2px goldenrod;
+    border-radius: 25px;
+}
+a{
+    color: black;
+    font-size: 36px;
+}
